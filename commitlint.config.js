@@ -1,5 +1,5 @@
 module.exports = {
-  parserPreset: ["@commitlint/config-conventional"],
+  extends: ["@commitlint/config-conventional"],
   rules: {
     "body-leading-blank": [1, "always"],
     "body-max-line-length": [2, "always", 100],
