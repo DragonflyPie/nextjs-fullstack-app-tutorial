@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-fullstack-template",
+  "name": "nextjs-fullstack-app",
   "version": "0.1.0",
   "private": true,
   "engines": {
@@ -18,9 +18,11 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "@storybook/addon-postcss": "^2.0.0",
     "next": "12.2.5",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "storybook-css-modules-preset": "^1.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.18.13",
@@ -37,13 +39,16 @@
     "@types/node": "18.7.13",
     "@types/react": "18.0.17",
     "@types/react-dom": "18.0.6",
+    "autoprefixer": "^10.4.8",
     "babel-loader": "^8.2.5",
     "cross-env": "^7.0.3",
     "eslint": "8.22.0",
     "eslint-config-next": "12.2.5",
     "eslint-plugin-storybook": "^0.6.4",
     "husky": "^8.0.1",
+    "postcss": "^8.4.16",
     "prettier": "2.7.1",
+    "tailwindcss": "^3.1.8",
     "typescript": "4.7.4"
   }
 }
