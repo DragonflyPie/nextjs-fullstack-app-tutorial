@@ -13,6 +13,11 @@ module.exports = {
       xl: "1536px",
     },
 
+    fontFamily: {
+      sans: ["Arial", "sans-serif"],
+      serif: ["Garamond", "serif"],
+    },
+
     extend: {
       colors: {
         brown: {
@@ -27,6 +32,13 @@ module.exports = {
           800: "#846358",
           900: "#43302b",
         },
+        blue: {
+          500: "#1a73e8",
+        },
+      },
+
+      spacing: {
+        128: "32rem",
       },
     },
   },
